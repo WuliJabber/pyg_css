@@ -1,0 +1,330 @@
+.main{
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+}
+.focus{
+    float: left;
+    width: 721px;
+    height: 455px;
+    margin-top: 10px;
+}
+.newflash{
+    float: right;
+    width: 250px;
+    height: 455px;
+    margin-top: 10px;
+}
+.news{
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.lifeservice{
+     height: 209px;
+     border: 1px solid #e4e4e4;
+     border-top: 0;
+     overflow: hidden;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice ul li{
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.lifeservice img{
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+.lifeservice h1{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+.bargain{
+    margin-top: 6px;
+}
+.news_hd{
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.news_hd h5{
+    padding-left: 15px;
+    float: left;
+    font-size: 14px; 
+}
+.news_hd a{
+    float: right;
+    padding-right: 15px;
+}
+.news_bd ul li a strong{
+    color: red;
+}
+.news_bd ul li a {
+    white-space: nowrap;
+}
+.news_bd ul li{
+    height: 24px;
+    line-height: 24px;
+    padding: 5px 15px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* 推荐模块 */
+.recom{
+    height: 163px;
+    background-color: white;
+    margin-top: 22px;
+}
+.recom_hd{
+    float: left;
+    width: 205px;
+    height: 163px;
+    line-height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+.recom_hd img{
+    width: 180px;
+}
+.recom_bd{
+    float: left;
+    
+}
+.recom_bd ul li{
+    position: relative;
+    float: left;
+}
+.recom_bd ul li img{
+    height: 163px;
+    width: 248px;
+}
+.recom_bd ul li:nth-child(-n+4)::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+/* 猜你喜欢 */
+.like{
+    margin-top: 20px;
+}
+.like_hd{
+    height: 30px;
+}
+.like_hd h1{
+    float: left;
+    font-weight: 200;
+}
+.like_hd p{
+    line-height: 30px;
+    padding-right: 20px;
+    float: right;
+}
+.like_bd{
+    height: 200px;
+    width: 1200px;
+    overflow: hidden;
+    border: 1px solid #e4e4e4;
+}
+.like_bd ul{
+    width: 1205px;
+    position: relative;
+}
+.like_bd ul li{
+    float: left;
+    width: 200px;
+}
+.like_bd ul li .txt{
+    text-align: center;
+}
+.like_bd ul li .txt .price{
+    color: red;
+}
+.like_bd ul li:nth-child(n+2):after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 50px;
+    background-color: #ddd;
+    top: 140px;
+}
+/* 有趣区 */
+.fun{
+    position: relative;
+    height: 449px;
+    margin-top: 30px;
+}
+.fun .txt{
+    font-size: 12px;
+    font-weight: 20;
+    margin-bottom: 10px;
+}
+.fun_bd{
+    height: 407px;
+    border: 1px solid #e4e4e4 ;
+}
+.fun_bd .books{
+    float: left;
+}
+.fun_bd .goods{
+    float: left;
+    width: 227px;
+}
+.fun_bd .goods h2{
+    height: 40px;
+    line-height: 40px;
+    padding: 5px 0 ;
+    text-align: center;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.fun_bd .goods .recom1 img{
+    width: 227px;
+    height: 206px;
+}
+.fun_bd .goods .recom2 img{
+    width: 227px;
+    height: 158px;
+}
+.fun_bd .brand{
+    float: left;
+    width: 405px;
+    height: 246px;
+    border-right: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.fun_bd .brand h4{
+    width: 365px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.fun_bd .brand div{
+    width: 405px;
+    height: 206px;
+}.fun_bd .brand ul li{
+    float: left;
+    width: 201px;
+    height: 158px;
+}
+.fun_bd .box4{
+    position: absolute;
+    width: 162px;
+    height: 405px;
+    right: 0;
+    bottom: 5px;
+}
+.fun_bd .box4 ul li{
+    width: 71px;
+    height: 55px;
+    margin-left: 5px;
+    float: left;
+    text-align: center;
+    line-height: 55px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.fun_bd .box4 ul li:nth-child(odd){
+    border-right: 1px dotted #e4e4e4;
+}
+.fun_bd .box4 ul .last{
+    border-bottom: 0px;
+}
+
+.floor{
+    margin-top: 10px;
+}
+.floor .jiadian .hd{
+    height: 30px;
+    border-bottom: 2px solid red;
+}
+.floor .jiadian .hd h3{
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: red;
+}
+.tab_list{
+    float: right;
+    line-height: 30px;
+}
+.tab_list ul li{
+    float: left;
+}
+.tab_list ul li a{
+    margin: 0 15px;
+}
+.tab_list ul li:hover a{
+    color: red;
+}
+.floor .jiadian .bd{
+    height: 361px;
+    
+}
+.tab_list_item>div{
+ float: left;
+ height: 361px
+}
+.col_210{
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210 ul{
+    padding-left: 12px;
+}
+.col_210 ul li{
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+.col_329{
+    width: 329px;
+}
+.col_221{
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.col_219{
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+.col_219 .bb{
+    border-bottom: 1px solid #ccc;
+}
+.col_221 .bb{
+    border-bottom: 1px solid #ccc;
+}
+.floor .shouji{
+    margin-top: 20px;
+}
+.floor .shouji .hd{
+    height: 30px;
+    border-bottom: 2px solid red;
+}
+.floor .shouji .hd h3{
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: red;
+}
+
